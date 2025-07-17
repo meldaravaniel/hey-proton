@@ -13,7 +13,7 @@ if allof (
 }
 
 # IGNORED - sent items
-# Add all your pre-migration inbox addresses to 'From Me' contact group,
+# Add all your pre-migration inbox addresses to 'Old Addresses' contact group,
 # but not the new Simplelogin forwarding addresses added to those mailboxes.
 # remove 'My Addresses' match for any testing, or you'll get no matches!
 if allof(
