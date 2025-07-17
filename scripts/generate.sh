@@ -9,7 +9,7 @@ list_files=(
     "private/contact groups.txt"
     "private/contact groups.txt"
     "private/email alias regexes.txt"
-    "private/test address regexes.txt"
+    "private/forwardingAddressesRegex.txt"
 )
 
 # Array to store regex patterns
@@ -17,7 +17,7 @@ regex_patterns=(
     '\{\{contact groups\.txt list expansion( excluding (.*))?\}\}'
     '\{\{contact groups\.txt fileinto expansion( excluding (.*))?\}\}'
     '\{\{email alias regexes\.txt string expansion\}\}'
-    '\{\{test address regexes\.txt string expansion\}\}'
+    '\{\{forwardingAddressesRegex\.txt string expansion\}\}'
 )
 
 # Array to store corresponding function names

@@ -3,6 +3,11 @@
 #
 # Rules:
 # ANY match in here MUST call 'stop'.
+#
+# PreReqs to use without modification:
+#
+# Contact groups: 'Old Addresses', 'My Addresses'
+# Files: forwardingAddressesRegex.txt in ./private-examples
 
 # IGNORED - spam
 if allof (
@@ -26,7 +31,7 @@ if allof(
       "to",
       "X-Original-To"
     ] [
-      {{test address regexes.txt string expansion}}
+      {{forwardingAddressesRegex.txt string expansion}}
     ]
  ) {
   stop;

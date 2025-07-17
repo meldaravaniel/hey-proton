@@ -1,0 +1,4 @@
+^([a-zA-Z0-9]{1,})\\.([a-zA-Z]{1,})(\\.[a-zA-Z]{1,})?@passmail\.com$
+^([a-zA-Z0-9]{1,})\\.([a-zA-Z]{1,})(\\.[a-zA-Z]{1,})?@passmail\.net$
+^([a-zA-Z0-9]{1,})\\.([a-zA-Z]{1,})(\\.[a-zA-Z]{1,})?@passinbox\.com$
+^([a-zA-Z0-9]{1,})\\.([a-zA-Z]{1,})(\\.[a-zA-Z]{1,})?@passfwd\.com$

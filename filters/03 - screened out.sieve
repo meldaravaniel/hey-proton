@@ -7,6 +7,12 @@
 #  - call `stop`
 #  - set the mail to expire.
 # - 'Screened Out' folder MUST NOT be used as a destination beyond this file.
+#
+# PreReqs to use without modification:
+#
+# Contact groups: 'Screened Out', 
+# Labels: "expiring", "craigslist", "calendar"
+# Folders: "Screened Out"
 
 # Screened Out - Screened Out contacts
 # Emails I receive but can't opt out of

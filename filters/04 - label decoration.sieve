@@ -14,6 +14,14 @@
 # - second match list: verb fragments.
 # This keeps implementation generic and prevents
 # individual regexes from getting too messy.
+#
+# PreReqs to use without modification:
+#
+# Contact groups: 'Screened Out', 
+# Labels: "expiring", "craigslist", "calendar"
+# Folders: "Screened Out"
+# Files: forwardingAddressesRegex.txt in ./private-examples
+
 
 # LABEL DECORATION - Email aliases
 
